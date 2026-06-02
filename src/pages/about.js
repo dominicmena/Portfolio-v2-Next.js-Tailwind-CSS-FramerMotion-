@@ -1,6 +1,6 @@
 import AnimatedText from "./components/AnimatedText";
 import Layout from "./components/Layout";
-import profilePic from '../../public/images/profile/dscf4126.jpg'
+import profilePic from '../../public/images/profile/profile.png'
 import Image from "next/image";
 import Skills from './components/Skills'
 import Experience from "./components/Experience";
@@ -30,12 +30,10 @@ const About = () => {
                 Biography:
               </h2>
               <p className="my-3 text-[19px] font-medium flex flex-wrap mr-20 xs:mr-12">
-                Dominic Mena was born and raised in El, Paso TX - A lifelong
-                learner, he recieved his B.A. in Philosophy from Arizona State
-                and went on to work for DoorDash in its start-up days - scaling business operations
-                & multiple facets of the company for 5+ years!
-                
-                When not building new coding projects, I love to write music, run, & read!  
+                I&apos;m a software engineer, musician, and lifelong learner based in Austin, Texas. My path has taken me from studying philosophy at Arizona State University, to helping scale operations at DoorDash during its startup years, to building custom software solutions and applications today.
+              </p>
+              <p className="my-3 text-[19px] font-medium flex flex-wrap mr-20 xs:mr-12">
+                I enjoy solving problems, whether that means writing SQL, building applications, learning a new instrument, or figuring out how a great song works. Outside of work, I write and record music, run, read, and am usually working on a new project or skill that caught my attention.
               </p>
             </div>
             <div className="col-span-2 relative h-max rounded-[2rem] border-2 border-solid border-dark bg-light p-9 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-8">
